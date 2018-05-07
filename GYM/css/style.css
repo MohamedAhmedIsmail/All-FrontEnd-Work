@@ -1,0 +1,551 @@
+body
+{
+	padding-top:70px;
+	height:5000px;
+	font-family:'Open Sans',sans-serif;
+}
+.fit 
+{ /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+}
+.center 
+{
+    display: block;
+    margin: auto;
+}
+/*Start Navbar*/
+.navbar
+{
+	min-height:70px;
+}
+
+.navbar-inverse .navbar-nav > l i > a
+{
+	color:#BBB;
+	padding-top:25px;
+	padding-bottom:25px;
+	font-size:16px;
+}
+.navbar-inverse .navbar-brand
+{
+	color:#fff;
+	font-size:30px;
+	line-height:40px;
+}
+.navbar-inverse .navbar-brand span
+{
+	font-size: 20px;
+	color:#ffce25;
+}
+.navbar .home
+{
+	color:#ffce25;
+	margin-top:20px;
+	font-size: 20px;
+}
+.navbar .activity
+{
+	margin-top:20px;
+	font-size: 20px;
+	color:#fff;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.navbar .activity:hover
+{
+	color:#ffce25;
+	-webkit-transition:all 0.8s ease;
+	-moz-transition:all 0.8s ease;
+	transition:all 0.8s ease;
+}
+/* End Navbar */
+
+/* Satrt Carousal*/
+.carousel-caption
+{
+	bottom:180px;
+	background:rgba(3,3,3,0.2);
+	padding-right:20px;
+	padding-left:20px;
+}
+.carousel-indicators
+{
+	bottom:0;
+}
+
+.carousel-indicators li
+{
+	height:15px;
+	width:15px;
+	border:1px solid #EEE;
+}
+.carousel-indicators .active
+{
+	
+	width:18px;
+	height:18px;
+}
+.carousel-indicators .active,
+.option-box .gear-check
+{
+	color:#ffce25;
+	background-color:#ffce25;
+}
+.carousel-inner  .item  img
+{
+	width:1300px;
+	height:600px;
+}
+.carousel-inner > .item > img
+{
+	width: 100;
+}
+/* End Carousal */
+
+/* Start Welcome Section */
+.wel h1
+{
+	margin-top: 70px;
+	margin-bottom: 30px;
+	font-family: bold;
+}
+.head-border-center
+ {
+   	display:block;
+	width:40px;
+	height:2px;
+	background-color:#b11414;
+	margin-left: 550px;
+}
+.wel .parag
+{
+	margin-top: 80px;
+	padding-left: 140px;
+	margin-right: 180px;
+}
+.coaches
+{
+	margin-top: 80px;
+
+}
+.coach1,
+.coach2,
+.coach3
+{
+	border:1px solid #DDD;
+	height: 180px;
+	margin-top: -20px;
+}
+.coach1 h2,
+.coach2 h2,
+.coach3 h2
+{
+	color:#b11414;
+	margin-top: 50px;
+}
+.gly
+{
+	border: 1px solid #F2F2F2;
+	border-radius:50%;
+	height: 70px;
+	width: 70px;
+	padding-top: 10px; 
+}
+/* End Welcome Section */
+/* Start Bxslider section*/
+.slides
+{
+	width:1200px;
+	margin-left: 40px;
+	margin-top: 100px;
+}
+
+.slide1
+{
+	position: relative; 
+   width: 100%;
+}
+.slide2
+{
+	position: relative; 
+   width: 100%;
+}
+.slide3
+{
+	position: relative; 
+   width: 100%;
+}
+.slide4
+{
+	position: relative; 
+   width: 100%;
+}
+.slide5
+{
+	position: relative; 
+   width: 100%;
+}
+.slide6
+{
+	position: relative; 
+   width: 100%;
+}
+.slide1 h2
+ { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
+   color:#FFF;
+   text-align: center;
+   font-family: bold;
+   font-style: italic;
+}
+.slide2 h2
+ { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
+   color:#FFF;
+   text-align: center;
+   font-family: bold;
+   font-style: italic;
+}
+.slide3 h2
+ { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
+   color:#FFF;
+   text-align: center;
+   font-family: bold;
+   font-style: italic;
+}
+.slide4 h2
+ { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
+   color:#FFF;
+   text-align: center;
+   font-family: bold;
+   font-style: italic;
+}
+.slide5 h2
+ { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
+   color:#FFF;
+   text-align: center;
+   font-family: bold;
+   font-style: italic;
+}
+.slide6 h2
+ { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
+   color:#FFF;
+   text-align: center;
+   font-family: bold;
+   font-style: italic;
+}
+/*End BxSlider Section*/
+
+
+/* Start Coach Section*/
+
+.coach
+{
+	margin-top:100px;
+	margin-bottom: 20px;
+	font-family: bold;
+}
+.lol .imgs
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.lol h4
+{
+	color:black;
+	font-family: bold;
+}
+.lol h4:hover
+{
+	color:red;
+	cursor: pointer;
+	-webkit-transition:all 0.8s ease;
+	-moz-transition:all 0.8s ease;
+	transition:all 0.8s ease;
+}
+.lol .crossfit
+{
+	font-size: 15px;
+	color:#b11414;
+}
+.lol .imgg1 p
+{
+	color:#888;
+
+}
+.lol .fitness
+{
+	font-size: 15px;
+	color:#b11414;
+}
+.lol .imgg2 p
+{
+	color:#888;
+
+}
+.lol .yoga
+{
+	font-size: 15px;
+	color:#b11414;
+}
+.lol .imgg3 p
+{
+	color:#888;
+
+}
+.lol .bodybuilding
+{
+	font-size: 15px;
+	color:#b11414;
+}
+.lol .imgg4 p
+{
+	color:#888;
+
+}
+/* End Coach Section */
+
+/* Start Blog Section */
+.blog
+{
+	height:1050px;
+	background-color:#e8edf6;
+	margin-top: 100px;
+}
+.blog h1
+{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	font-family: bold;
+}
+.blog .imgs1
+{
+	margin-top: 50px;
+}
+.blog .imgs2
+{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.blog .col1
+{
+	padding-left: 10px;
+}
+.blog .col3
+{
+	padding-left: 10px;
+}
+/* End Blog Section */
+
+/* Start Testemonial Section*/
+.test
+{
+	background:url('../images/14.jpg') fixed center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	height:800px;
+}
+.test .testo
+{
+	color:#FFF;
+	margin-top: 200px;
+	font-family: bold;
+}
+.test .what
+{
+	background-color: #FFF;
+}
+.test .client
+{
+
+	padding:100px 0;
+	color:#FFF;
+}
+.test .client img
+{
+	border-radius:50%;
+}
+.test .client p
+{
+	line-height:2;
+	font-size:15px;
+	font-style:italic;
+}
+.test  .fa-chevron-right
+{
+	position: absolute;
+	top:4100px;
+	right:600px;
+	color:#FFF;
+	cursor:pointer;
+	border: 1px solid #FFF;
+}
+.test  .fa-chevron-left
+{
+	position: absolute;
+	top:4100px;
+	left:610px;
+	color:#fff;
+	cursor:pointer;
+	border: 1px solid #FFF;
+}
+.test .fa-chevron-right:hover,
+.test .fa-chevron-left:hover
+{
+	background-color:#191919; 
+	border: 1px solid #191919;
+	color:#fff;
+	-webkit-transition:all 0.8s ease;
+	-moz-transition:all 0.8s ease;
+	transition:all 0.8s ease;
+}
+
+/*End Our Testimonials*/
+
+/*End Testemonial Section*/
+/*Start Top Button*/
+.scroll
+{
+	 position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+.scroll span
+ {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+.scroll:hover 
+{
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+/* End Top Button */
+/* Start Section Footer */
+
+.footer
+{
+	background:#111;
+	color:#AAA;
+	padding-top: 20px;
+}
+.footer a
+{
+	color:#333;
+}
+.footer a:hover
+{
+	color:#FFF;
+}
+.footer h3
+{
+	letter-spacing: 1px;
+	margin:30px 0  20px;
+}
+.footer .three-columns
+{
+	overflow: hidden;
+}
+.footer .three-columns li
+{
+	width:33.333333%;
+	float:left;
+	padding:5px;
+}
+.footer .social-list
+{
+	overflow: hidden;
+	margin:20px 0 10px;
+}
+.footer .social-list li
+{
+	float:left;
+	margin-left: 3px;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+}
+.footer .social-list li:hover
+{
+	opacity:1;
+}
+.footer .img-thumbnail
+{
+	background:rgba(0,0,0,0.2);
+	border:1px solid #444;
+	margin-bottom: 5px;
+}
+.footer .copyright
+{
+	background:#333;
+	color:#AAA;
+	padding:15px 0;
+	margin-top: 20px;
+	font-size: 18px;
+}
+/* End Section Footer */
+
+.text-center
+{
+	text-align: center;
+}
+.overlay
+{
+	background:rgba(49,55,61,.7);
+	width:100%;
+	height:100%;
+}
+.hidden
+{
+	visibility:hidden;
+}
+.container1
+{
+	width: 1200px;
+	margin: auto;
+	position:relative;
+}

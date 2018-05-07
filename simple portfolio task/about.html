@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/pure-min.css"/>
+		<link type="text/css" rel="stylesheet" href="css/grids-responsive-min.css"/>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link  rel="stylesheet" href="css/font-awesome.min.css"/>
+		<title>About Me</title>
+	</head>
+	<body>
+		<link rel="stylesheet" href="css/grids-responsive-min.css">
+		<!-- Start Header -->
+		<div class="navigation pure-g" id="menu">
+			<div class="brand pure-u-1 pure-u-md-1-2">
+				<div class="pure-menu">
+					<a href="index.html" class="pure-menu-heading brand-name">Mohamed Ismail</a>
+					<a href="#" class="custom-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+				</div>
+			</div>
+			<div class="pure-u-1 pure-u-md-1-2">
+				<div class="pure-menu pure-menu-horizontal custom-can-transform">
+					<ul class="pure-menu-list">
+						<li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
+						<li class="pure-menu-item"><a href="about.html" class="pure-menu-link">About</a></li>
+						<li class="pure-menu-item"><a href="https://www.google.com" targe="_blank" class="pure-menu-link">Store</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--End Header-->
+	<script>
+    (function (window, document) {
+    var menu = document.getElementById('menu'),
+        WINDOW_CHANGE_EVENT = ('onorientationchange' in window) ? 'orientationchange':'resize';
+    
+    function toggleHorizontal() {
+        [].forEach.call(
+            document.getElementById('menu').querySelectorAll('.custom-can-transform'),
+            function(el){
+                el.classList.toggle('pure-menu-horizontal');
+            }
+        );
+    };
+    
+    function toggleMenu() {
+        // set timeout so that the panel has a chance to roll up
+        // before the menu switches states
+        if (menu.classList.contains('open')) {
+            setTimeout(toggleHorizontal, 500);
+        }
+        else {
+            toggleHorizontal();
+        }
+        menu.classList.toggle('open');
+        document.getElementById('toggle').classList.toggle('x');
+    };
+    
+    function closeMenu() {
+        if (menu.classList.contains('open')) {
+            toggleMenu();
+        }
+    }
+    
+    document.getElementById('toggle').addEventListener('click', function (e) {
+        toggleMenu();
+    });
+    
+    window.addEventListener(WINDOW_CHANGE_EVENT, closeMenu);
+    })(this, this.document);
+    
+    </script>
+    	<!-- Start About Section-->
+
+    		<div class="about pure-g">
+    			<div class="pure-u-1 pure-u-md-1-3">
+    				<img class="pure-img" src="images/13.jpg"/>
+    				<div class="about-wrapper">
+    					<div class="pure-u-1">
+    						<ul class="about-social-icons">
+    		<li><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter fa-lg fa-fw"></i></a></li>
+            <li><a href="http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p fa-lg fa-fw"></i></a></li>
+            <li><a href="http://www.dribbble.com" target="_blank"><i class="fa fa-dribbble fa-lg fa-fw"></i></a></li>
+            <li><a href="http://www.youtube.com" target="_blank"><i class="fa fa-youtube-play fa-lg fa-fw""></i></a></li>
+    						</ul>
+    					</div>
+    					<div class="pure-u-1">
+    						<ul class="about-info">
+    							<li><h3>Mohamed Ismail</h3></li>
+    							<li><h3><a href="moahmedesmail@yahoo.com">mohamedesmail@yahoo.com</a></h3></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="pure-u-1 pure-u-md-2-3">
+    				<div class="about-margin">
+    					<h1>About Me</h1>
+    					<p>
+    						Lorem ipsum dolor sit amet, enim voluptatum consequuntur sea ut, ipsum essent volumus vis et. Ex quo suas fugit equidem, minim sententiae ne quo. Id detraxit adipisci sadipscing has, eum ea lucilius scribentur. Ferri saepe propriae mel ex, an has sint tempor platonem.
+    
+    An utroque platonem partiendo has, ea pro vidit honestatis. Ex mei impetus definiebas vituperata. No tempor eleifend neglegentur vis, sed cu menandri hendrerit, sit ad impedit sensibus adolescens. Usu quis sapientem no, latine propriae reformidans vix ea, laoreet eloquentiam no duo. Posse definiebas mei eu, et duo quando maiestatis incorrupte. Pri erat populo oporteat in, id quis vituperatoribus ius, ut vel aliquid sadipscing.
+    
+    Fabulas dolorem vix ut, quo aliquip consulatu id. Nec magna zril quaerendum ea, et his laudem percipit invidunt. Sed vocibus facilis probatus id, et sea malis fastidii ullamcorper, latine oblique partiendo mea te. Est sonet delicata laboramus ne. Pro iriure repudiandae ea, virtute accusamus ei sea, splendide reformidans an cum.
+    
+    Eos omnis molestie id. Vis molestie periculis moderatius ad. Semper aeterno constituto eu sea. Id unum autem mei, no qui essent viderer vituperata, an audiam lobortis moderatius nam. Vis eius munere ex. Noster pertinax comprehensam vix id, elit invenire perpetua ad eum.
+    
+    Ei mel nusquam placerat, quo at lorem suscipit. Mediocrem adipiscing ex quo, an natum repudiare disputando has, te platonem efficiendi assueverit cum. Ea facilisis intellegam vis. Est oportere definitiones ad. Nostro maiorum complectitur cum te, nonumy sententiae omittantur cu pro. Iriure utroque his no, mei ex vitae postulant.
+    					</p>
+    					<h1>Why I'm Cool</h1>
+    					<p>
+    						Lorem ipsum dolor sit amet, enim voluptatum consequuntur sea ut, ipsum essent volumus vis et. Ex quo suas fugit equidem, minim sententiae ne quo. Id detraxit adipisci sadipscing has, eum ea lucilius scribentur. Ferri saepe propriae mel ex, an has sint tempor platonem.
+    
+    An utroque platonem partiendo has, ea pro vidit honestatis. Ex mei impetus definiebas vituperata. No tempor eleifend neglegentur vis, sed cu menandri hendrerit, sit ad impedit sensibus adolescens. Usu quis sapientem no, latine propriae reformidans vix ea, laoreet eloquentiam no duo. Posse definiebas mei eu, et duo quando maiestatis incorrupte. Pri erat populo oporteat in, id quis vituperatoribus ius, ut vel aliquid sadipscing.
+    
+    Fabulas dolorem vix ut, quo aliquip consulatu id. Nec magna zril quaerendum ea, et his laudem percipit invidunt. Sed vocibus facilis probatus id, et sea malis fastidii ullamcorper, latine oblique partiendo mea te. Est sonet delicata laboramus ne. Pro iriure repudiandae ea, virtute accusamus ei sea, splendide reformidans an cum.
+    
+    Eos omnis molestie id. Vis molestie periculis moderatius ad. Semper aeterno constituto eu sea. Id unum autem mei, no qui essent viderer vituperata, an audiam lobortis moderatius nam. Vis eius munere ex. Noster pertinax comprehensam vix id, elit invenire perpetua ad eum.
+    
+    Ei mel nusquam placerat, quo at lorem suscipit. Mediocrem adipiscing ex quo, an natum repudiare disputando has, te platonem efficiendi assueverit cum. Ea facilisis intellegam vis. Est oportere definitiones ad. Nostro maiorum complectitur cum te, nonumy sententiae omittantur cu pro. Iriure utroque his no, mei ex vitae postulant.
+    					</p>
+    				</div>
+    			</div>
+    		</div>
+
+    	<!--End About Section-->
+		<!--Start Footer -->
+		<div class="footer pure-g">
+	    <div class="pure-u-1-2">
+	        <ul class="social-icons">
+	            <li><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter fa-lg fa-fw"></i></a></li>
+	            <li><a href="http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p fa-lg fa-fw"></i></a></li>
+	            <li><a href="http://www.dribbble.com" target="_blank"><i class="fa fa-dribbble fa-lg fa-fw"></i></a></li>
+	            <li><a href="http://www.youtube.com" target="_blank"><i class="fa fa-youtube-play fa-lg fa-fw""></i></a></li>
+	        </ul>
+	    </div>
+	    <div class="pure-u-1-2">
+	        <p class="footer-credit">
+	            Website by <a href="http://www.facebook.com/mohamed.esmail.3975" target="_blank">Mohamed Ismail</a>
+	        </p>
+	    </div>
+		</div>
+		<!-- End Footer-->		
+	</body>
+</html>
